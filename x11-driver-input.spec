@@ -1,10 +1,9 @@
 Name: x11-driver-input
 Version: 1.0.0
-Release: %mkrel 4
+Release: %mkrel 5
 Summary: X11 input drivers
 Group: System/X11
 License: GPL
-
 Requires: x11-driver-input-acecad
 Requires: x11-driver-input-aiptek
 Requires: x11-driver-input-calcomp
@@ -38,7 +37,3 @@ X11 input drivers
 
 %files
 %defattr(-,root,root)
-
-
-
-
