@@ -1,6 +1,6 @@
 Name: x11-driver-input
 Version: 1.0.0
-Release: %mkrel 5
+Release: %mkrel 6
 Summary: X11 input drivers
 Group: System/X11
 License: GPL
@@ -33,7 +33,7 @@ Requires: x11-driver-input-ur98
 Requires: x11-driver-input-void
 
 %description
-X11 input drivers
+Meta-package which requires all X11 input drivers
 
 %files
 %defattr(-,root,root)
