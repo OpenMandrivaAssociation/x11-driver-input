@@ -3,6 +3,7 @@ Version: 1.0.0
 Release: %mkrel 6
 Summary: X11 input drivers
 Group: System/X11
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License: GPL
 Requires: x11-driver-input-acecad
 Requires: x11-driver-input-aiptek
