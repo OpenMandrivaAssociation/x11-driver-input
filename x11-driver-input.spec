@@ -1,6 +1,6 @@
 Name: x11-driver-input
 Version: 1.0.0
-Release: %mkrel 8
+Release: %mkrel 9
 Summary: X11 input drivers
 Group: System/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -31,7 +31,6 @@ Requires: x11-driver-input-spaceorb
 Requires: x11-driver-input-summa
 Requires: x11-driver-input-tek4957
 Requires: x11-driver-input-ur98
-Requires: x11-driver-input-vboxmouse
 Requires: x11-driver-input-void
 
 %description
