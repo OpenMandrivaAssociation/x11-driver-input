@@ -1,6 +1,6 @@
 Name: x11-driver-input
 Version: 1.0.0
-Release: %mkrel 9
+Release: %mkrel 10
 Summary: X11 input drivers
 Group: System/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -28,6 +28,7 @@ Requires: x11-driver-input-mutouch
 Requires: x11-driver-input-palmax
 Requires: x11-driver-input-penmount
 Requires: x11-driver-input-spaceorb
+Requires: x11-driver-input-synaptics
 Requires: x11-driver-input-summa
 Requires: x11-driver-input-tek4957
 Requires: x11-driver-input-ur98
