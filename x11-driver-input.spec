@@ -10,6 +10,7 @@ Requires: x11-driver-input-acecad
 Requires: x11-driver-input-aiptek
 Requires: x11-driver-input-citron
 Requires: x11-driver-input-evdev
+Requires: x11-driver-input-evtouch
 Requires: x11-driver-input-fpit
 Requires: x11-driver-input-hyperpen
 Requires: x11-driver-input-joystick
@@ -19,6 +20,7 @@ Requires: x11-driver-input-mutouch
 Requires: x11-driver-input-penmount
 Requires: x11-driver-input-synaptics
 Requires: x11-driver-input-void
+Requires: x11-driver-input-wacom
 
 Obsoletes: x11-driver-input-calcomp
 Obsoletes: x11-driver-input-digitaledge
