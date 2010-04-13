@@ -1,6 +1,6 @@
 Name: x11-driver-input
 Version: 1.0.0
-Release: %mkrel 11
+Release: %mkrel 12
 Summary: X11 input drivers
 Group: System/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -35,6 +35,7 @@ Obsoletes: x11-driver-input-spaceorb
 Obsoletes: x11-driver-input-summa
 Obsoletes: x11-driver-input-tek4957
 Obsoletes: x11-driver-input-ur98
+Obsoletes: x11-driver-input-wiimote
 
 %description
 Meta-package which requires all X11 input drivers
