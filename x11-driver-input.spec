@@ -1,6 +1,6 @@
 Name: x11-driver-input
 Version: 1.0.0
-Release: 19
+Release: 20
 Summary: X11 input drivers
 Group: System/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
