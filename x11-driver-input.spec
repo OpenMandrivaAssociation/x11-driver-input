@@ -1,13 +1,17 @@
 Name:		x11-driver-input
 Version:	1.0.0
-Release:	23
+Release:	24
 Summary:	X11 input drivers
 Group:		System/X11
 License:	GPL
 
 Requires:	x11-driver-input-acecad
 Requires:	x11-driver-input-aiptek
+%ifarch %armx
+Requires:	x11-driver-input-cmt
+%endif
 Requires:	x11-driver-input-evdev
+Requires:	x11-driver-input-evtouch
 Requires:	x11-driver-input-fpit
 Requires:	x11-driver-input-hyperpen
 Requires:	x11-driver-input-joystick
