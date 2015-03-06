@@ -1,6 +1,6 @@
 Name:		x11-driver-input
 Version:	1.0.0
-Release:	27
+Release:	28
 Summary:	X11 input drivers
 Group:		System/X11
 License:	GPL
@@ -12,6 +12,7 @@ Requires:	x11-driver-input-evtouch
 Requires:	x11-driver-input-fpit
 Requires:	x11-driver-input-hyperpen
 Requires:	x11-driver-input-joystick
+Requires:	x11-driver-input-libinput
 Requires:	x11-driver-input-mutouch
 Requires:	x11-driver-input-penmount
 Requires:	x11-driver-input-synaptics
