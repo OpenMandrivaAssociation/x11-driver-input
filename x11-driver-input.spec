@@ -11,8 +11,7 @@ Requires:	x11-driver-input-evtouch
 Requires:	x11-driver-input-fpit
 Requires:	x11-driver-input-hyperpen
 Requires:	x11-driver-input-joystick
-Requires:	x11-driver-input-libinput
-Conflicts:	x11-driver-input-libinput <= 0.16.0
+Requires:	x11-driver-input-libinput >= 0.17.0
 Requires:	x11-driver-input-mutouch
 Requires:	x11-driver-input-penmount
 Requires:	x11-driver-input-synaptics
