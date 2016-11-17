@@ -1,11 +1,10 @@
 Name:		x11-driver-input
 Version:	1.0.0
-Release:	33
+Release:	34
 Summary:	X11 input drivers
 Group:		System/X11
 License:	GPL
 
-Requires:	x11-driver-input-acecad
 Requires:	x11-driver-input-evdev
 Requires:	x11-driver-input-evtouch
 Requires:	x11-driver-input-fpit
@@ -18,6 +17,7 @@ Requires:	x11-driver-input-synaptics
 Requires:	x11-driver-input-void
 Requires:	x11-driver-input-wacom
 
+Obsoletes:	x11-driver-input-acecad
 Obsoletes:	x11-driver-input-aiptek
 Obsoletes:	x11-driver-input-calcomp
 Obsoletes:	x11-driver-input-digitaledge
