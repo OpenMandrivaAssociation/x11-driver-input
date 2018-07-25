@@ -1,6 +1,6 @@
 Name:		x11-driver-input
 Version:	1.0.0
-Release:	35
+Release:	36
 Summary:	X11 input drivers
 Group:		System/X11
 License:	GPL
